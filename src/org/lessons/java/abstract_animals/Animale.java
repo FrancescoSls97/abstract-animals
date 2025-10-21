@@ -1,20 +1,13 @@
 package org.lessons.java.abstract_animals;
 
 public abstract class Animale {
-
-    //definizione metodi
-
-    //metodo comune a tutti gli eredi della casse 
-    protected void dormi() {
-        System.out.println("zzzzz");
+    //metodo uguale a tutti i discendenti
+    public void dormi() {
+        System.out.println("Zzz");
     }
 
-    // metodo differente a seconda dell'erede
-    protected void verso() {
+    //ogni discendente avrà un modo diverso di usare il metodo
+    public abstract void verso();
 
-    }
-
-    protected void mangia() {
-
-    }
+    public abstract void mangia();
 }
