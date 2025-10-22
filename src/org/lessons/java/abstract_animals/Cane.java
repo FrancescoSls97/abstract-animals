@@ -1,6 +1,8 @@
 package org.lessons.java.abstract_animals;
 
-public class Cane extends Animale{
+
+
+public class Cane extends AbstractAnimale {
   
     //override per dare indicazioni specifiche ai metodi ereditati
     @Override
@@ -12,5 +14,6 @@ public class Cane extends Animale{
     public void mangia(){
         System.out.println("Croccantini");
     }
+
 
 }

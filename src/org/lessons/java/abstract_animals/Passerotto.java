@@ -1,6 +1,6 @@
 package org.lessons.java.abstract_animals;
 
-public class Passerotto extends Animale {
+public class Passerotto extends AbstractAnimale implements IVolante {
 
     //override per dare indicazioni specifiche ai metodi ereditati
     @Override
@@ -11,6 +11,10 @@ public class Passerotto extends Animale {
     @Override
     public void verso() {
         System.out.println("Cip Cip");
+    }
+    @Override
+    public void vola(){
+        System.out.println("Sto volando");
     }
 
 }

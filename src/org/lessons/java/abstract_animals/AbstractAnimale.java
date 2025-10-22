@@ -1,6 +1,6 @@
 package org.lessons.java.abstract_animals;
 
-public abstract class Animale {
+public abstract class AbstractAnimale {
     //metodo uguale a tutti i discendenti
     public void dormi() {
         System.out.println("Zzz");

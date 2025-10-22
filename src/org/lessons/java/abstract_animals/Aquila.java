@@ -1,6 +1,9 @@
 package org.lessons.java.abstract_animals;
 
-public class Aquila extends Animale{
+
+
+public class Aquila extends AbstractAnimale implements IVolante{
+
 
     //override per dare indicazioni specifiche ai metodi ereditati
     @Override
@@ -13,4 +16,10 @@ public class Aquila extends Animale{
         System.out.println("Eeeeeeeekkkkk");
     }
 
+    @Override
+    public void vola(){
+        System.out.println("Sto volando");
+    }
+    
 }
+
